@@ -1,0 +1,134 @@
+{
+    "hints": [
+        {
+            "type": "conceptual",
+            "hint": "Focus on the distribution of candy types and their frequencies."
+        },
+        {
+            "type": "Algorithmic",
+            "hint": "A greedy approach can work: try to balance the candies consumed from different types."
+        },
+        {
+            "type": "implementation",
+            "hint": "Use a max-heap to always retrieve the most frequent candy type efficiently."
+        }
+    ],
+    "standard_io": {
+        "stdin": "6\n2\n2 3\n1\n2\n5\n1 6 2 4 3\n4\n2 2 2 1\n3\n1 1000000000 999999999\n1\n1\n",
+        "expected_output": "YES\nNO\nNO\nYES\nYES\nYES\n"
+    },
+    "testCases": [
+        {
+            "input": [
+                {
+                    "type": "number",
+                    "value": 2,
+                    "name": "t"
+                },
+                {
+                    "type": "array",
+                    "value": [
+                        2,
+                        3
+                    ],
+                    "name": "case1"
+                }
+            ],
+            "expected_output": "YES"
+        },
+        {
+            "input": [
+                {
+                    "type": "number",
+                    "value": 1,
+                    "name": "t"
+                },
+                {
+                    "type": "array",
+                    "value": [
+                        2
+                    ],
+                    "name": "case2"
+                }
+            ],
+            "expected_output": "NO"
+        },
+        {
+            "input": [
+                {
+                    "type": "number",
+                    "value": 5,
+                    "name": "t"
+                },
+                {
+                    "type": "array",
+                    "value": [
+                        1,
+                        6,
+                        2,
+                        4,
+                        3
+                    ],
+                    "name": "case3"
+                }
+            ],
+            "expected_output": "NO"
+        },
+        {
+            "input": [
+                {
+                    "type": "number",
+                    "value": 4,
+                    "name": "t"
+                },
+                {
+                    "type": "array",
+                    "value": [
+                        2,
+                        2,
+                        2,
+                        1
+                    ],
+                    "name": "case4"
+                }
+            ],
+            "expected_output": "YES"
+        },
+        {
+            "input": [
+                {
+                    "type": "number",
+                    "value": 3,
+                    "name": "t"
+                },
+                {
+                    "type": "array",
+                    "value": [
+                        1,
+                        1000000000,
+                        999999999
+                    ],
+                    "name": "case5"
+                }
+            ],
+            "expected_output": "YES"
+        },
+        {
+            "input": [
+                {
+                    "type": "number",
+                    "value": 1,
+                    "name": "t"
+                },
+                {
+                    "type": "array",
+                    "value": [
+                        1
+                    ],
+                    "name": "case6"
+                }
+            ],
+            "expected_output": "YES"
+        }
+    ]
+}
