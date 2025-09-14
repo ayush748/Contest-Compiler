@@ -10,10 +10,10 @@ export async function POST(req: Request) {
 
 
 
-    setTimeout(() => {
+    // setTimeout(() => {
       
-    }, 2000);
-    return NextResponse.json(data, { status: 200 });
+    // }, 2000);
+  return NextResponse.json(data, { status: 200 });
 
   try {
     const { problem } = await req.json();

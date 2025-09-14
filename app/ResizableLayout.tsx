@@ -4,9 +4,7 @@ import { useRef, useState, useEffect } from "react";
 import Resizable from "react-resizable-layout";
 import CodeEditor from "./component/CodeEditor";
 import ProblemPanel from "./component/ProblemPanel";
-import TestCasePanel, { TestCaseItem } from "./component/TestCasePanel";
 import OutputSection from "./component/OutputSection/OutputSection";
-import { languages } from "monaco-editor";
 import { hint, testCase } from "./types/types";
 
 interface Props {
